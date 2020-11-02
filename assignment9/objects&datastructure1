@@ -1,0 +1,6 @@
+Question 1:
+
+The first example code will return false because you can not use "==" when you are not comparing primitives. 
+The value of the "Q" may be the same as "name", but where they are stored are not the same.
+The second set of code will return true because when they comparing using "char ch = name.charAt(0);"
+which is the primitives and not the object references.
